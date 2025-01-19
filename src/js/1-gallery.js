@@ -121,7 +121,6 @@ function openModal(src) {
   );
 
   instance.show();
-
   function onEscapePress(event) {
     if (event.code === 'Escape') {
       instance.close();
